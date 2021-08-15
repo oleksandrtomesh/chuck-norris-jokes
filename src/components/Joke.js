@@ -8,7 +8,7 @@ export const Joke = ({icon_url, value}) => {
         const timeout = () => {
             setIsLoad(true)
         }
-        setTimeout(timeout, 0)
+        setTimeout(timeout, 200)
         
         return () => clearTimeout(timeout)
     },[])
